@@ -1,0 +1,232 @@
+
+
+@media screen and (max-width: 940px) {
+
+
+	.icon-dots {
+        display: none;
+    }
+
+    .features {
+		/*flex-direction: column;*/
+		width: 60%;
+		text-align: center;
+		z-index: 0;
+	}
+
+
+	#feature {
+		padding-bottom: 5%;
+	}
+
+	.features-left {
+		width: 100%;
+	    margin: auto;
+	    padding-top: 0;
+
+	    #feature{
+			display: flex;
+			flex-direction: row-reverse;
+
+		}
+
+		#feature-text{
+		text-align: left;
+		padding-left: 5%;
+		padding-top: 2%;
+		}
+	}
+	
+	.features-right {
+		width: 100%;
+	    margin: auto;
+	    margin-bottom: 15%;
+	    padding-top: 0;
+
+	    #feature-text{
+			padding-top: 2%;
+		}
+	}
+
+	.feature-center {
+		padding-bottom: 5%;
+	}
+
+
+	#planes{
+		transform: translateY(0%);
+		background-image: none;
+ 	}
+
+	.info {
+		background-image: url(img/pricing-bg.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+
+	.header-info {
+		margin-bottom: 5%;
+
+		img {
+			display: none;
+		}
+	}
+
+
+
+	.plan{
+		margin: 2%;
+		min-width: 40%;
+		hr {
+	    	margin-top: 10%;
+		}
+	}
+
+
+	#texto-pie {
+		margin: auto;
+		width: 80%
+	}
+
+}
+
+@media screen and (max-width: 580px) {
+
+	header {
+		margin-bottom: 30px;
+	}
+
+	#site-header-inner {
+	    overflow: hidden;
+	    display: flex;
+	    flex-direction: column;
+	    flex-wrap: wrap;
+	    align-items: center;
+	}
+
+	.site-navigation {
+		margin: 0;
+
+		ul {
+			margin: 0;
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			padding: 0;
+			li {
+				display: inline;
+				margin: 0;
+			}
+		}
+	}
+
+
+	
+
+
+	
+	#buscador {
+		transform: translateY(0); 
+		box-shadow: 0 0 13px rgba( 0, 0, 0, 0.15);
+			
+		input[type="submit"] {
+	   		width: 25%;
+	   	}
+	}
+
+
+	.banner {
+			display: none;
+	}
+
+	.service {
+
+		padding-top: 50px;
+	}
+
+	.icon-dots {
+		display: none;
+	}
+
+	.info {
+		background-size: 130%;
+		background-position-x: inherit;
+	}
+
+	.plan{
+		min-width: 40%;
+	}
+
+	.header-features {
+    	width: 90%;
+	}
+
+
+	.features {
+		width: 90%;
+	}
+
+	.feature-center {
+		margin-bottom: 20px;
+	}
+
+		.featured-image {
+			margin: auto;
+		}
+
+
+	.footer-inner {
+		flex-direction: column;
+
+		nav {
+			margin: 0;
+
+			ul {
+				padding: 0;
+
+				li {
+		    		display: inline;
+	    			margin: 0 10px 0 10px;
+				}
+			}
+		}
+	}
+
+
+	#arrow {
+		display: none;
+	}
+
+
+
+	.inner-banner-contact {
+		margin-top: 0;
+	}
+
+	.text-banner-contact {
+		width: 80%;
+	}
+		
+	#form-contact {
+		width: 90%;
+
+		form {
+			margin: auto;
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+		}
+	}
+
+
+	.input-left {
+		width: 100%;
+		padding-right: 0;
+	}
+
+	.input-right {
+		width: 100%;
+		padding-left: 0;
+	}
+
+}

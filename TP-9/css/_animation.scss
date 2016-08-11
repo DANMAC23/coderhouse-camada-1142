@@ -1,0 +1,10 @@
+.icon:hover{ 
+    -webkit-transform: scale(1.35);
+    transform: scale(1.35)
+}
+.icon {
+ 	-webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+}
